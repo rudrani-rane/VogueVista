@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Souq';
+  src:  url('../fonts/Souqe6e7.eot?y0w9b5');
+  src:  url('../fonts/Souqe6e7.eot?y0w9b5#iefix') format('embedded-opentype'),
+    url('../fonts/Souqe6e7.ttf?y0w9b5') format('truetype'),
+    url('../fonts/Souqe6e7.woff?y0w9b5') format('woff'),
+    url('../fonts/Souqe6e7.svg?y0w9b5#Souq') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="souq-"], [class*=" souq-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Souq' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.souq-sad-svgrepo-com:before {
+  content: "\e90a";
+}
+.souq-check-svgrepo-com:before {
+  content: "\e90f";
+}
+.souq-grid-svgrepo-com:before {
+  content: "\e911";
+}
+.souq-phone-svgrepo-com:before {
+  content: "\e913";
+}
+.souq-star-empty-svgrepo-com:before {
+  content: "\e902";
+}
+.souq-star-svgrepo-com:before {
+  content: "\e906";
+}
+.souq-add-user-account-man-svgrepo-com:before {
+  content: "\e900";
+}
+.souq-american-express-svgrepo-com:before {
+  content: "\e901";
+}
+.souq-cart-1-svgrepo-com:before {
+  content: "\e903";
+}
+.souq-cart-svgrepo-com:before {
+  content: "\e904";
+}
+.souq-chat-svgrepo-com:before {
+  content: "\e905";
+}
+.souq-close-svgrepo-com:before {
+  content: "\e907";
+}
+.souq-email-svgrepo-com:before {
+  content: "\e908";
+}
+.souq-free-sticker-svgrepo-com:before {
+  content: "\e909";
+}
+.souq-heart-svgrepo-com:before {
+  content: "\e90b";
+}
+.souq-left-arrow-svgrepo-com:before {
+  content: "\e90c";
+}
+.souq-list-svgrepo-com:before {
+  content: "\e90d";
+}
+.souq-location-svgrepo-com:before {
+  content: "\e90e";
+}
+.souq-next-svgrepo-com:before {
+  content: "\e910";
+}
+.souq-phone-call-svgrepo-com:before {
+  content: "\e912";
+}
+.souq-right-arrow-long:before {
+  content: "\e914";
+}
+.souq-right-arrow-svgrepo-com:before {
+  content: "\e915";
+}
+.souq-search:before {
+  content: "\e916";
+}
+.souq-secure-folder-password-svgrepo-com:before {
+  content: "\e917";
+}
+.souq-secure-payment-svgrepo-com:before {
+  content: "\e918";
+}
+.souq-shipping-fast-solid-svgrepo-com:before {
+  content: "\e919";
+}
+.souq-size-svgrepo-com:before {
+  content: "\e91a";
+}
+.souq-svgrepo-com:before {
+  content: "\e91b";
+}
+.souq-text-quote-svgrepo-com:before {
+  content: "\e91c";
+}
+.souq-view-svgrepo-com-1:before {
+  content: "\e91d";
+}

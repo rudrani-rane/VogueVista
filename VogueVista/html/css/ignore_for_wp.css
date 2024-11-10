@@ -1,0 +1,249 @@
+/*
+Theme Name: Souq
+Theme URI: 
+Author: JufailiTech
+Author URI: 
+Description: Souq - Ecommerce Responsive HTML5 Template
+Version: 1.0
+License:
+License URI:
+*/
+
+.featuresSection{
+    padding: 120px 0 97px;
+}
+.collectionSection{
+    padding: 0 63px 0px;
+}
+.newArrivalSection{
+    padding: 78px 0 81px;
+}
+.newArrivalSection .container{
+    max-width: 1220px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.newArrivalSection .secTitle{
+    margin: 0 0 25px;
+}
+.categoriesSection{
+    position: relative;
+    padding: 0 0 120px;
+}
+.categoriesSection .secTitle{
+    margin: 0 0 84px;
+}
+.trendingProductSection{
+    padding: 102px 0 100px;
+    background: #fdfaf7;
+}
+.trendingProductSection .secTitle{
+    margin: 0 0 55px;
+}
+.trendingProductSection .cotainer1470{
+    max-width: 1494px;
+}
+.trendingProductSection .col-lg-2{
+    flex: 0 0 auto;
+    width: 20%;
+}
+.mt83{
+    margin-top: 83px;
+}
+.pdt54{
+    padding: 54px;
+}
+.testimonialSection{
+    padding: 85px 0 82px;
+}
+.testimonialSection .secTitle{
+    line-height: 1;
+    margin: 0 0 65px;
+}
+.testimonialSection .secSubTitle{
+    margin: 13px 0 3px;
+}
+.testimonialSection .secDesc{
+    padding: 0 0 0 18px;
+}
+.brandSection{
+    position: relative;
+    padding: 0 0 89px;
+}
+.blogSection {
+    padding: 0 0 57px;
+}
+.blogSection .secSubTitle{
+    margin: 0 0 4px;
+}
+.blogSection .secTitle{
+    margin: 0 0 59px;
+}
+.categorySection2{
+    padding: 101px 0 85px;
+}
+.categorySection2 .secTitle{
+    margin: 0 0 84px;
+}
+.newItemSection{
+    position: relative;
+    padding: 0 0 94px;
+}
+.newItemSection .soqLink{
+    color: rgba(10, 9, 9, .88);
+    margin: 67px 0 0;
+}
+.newItemSection .soqLink:after{
+    background: #726f6d;
+}
+.newItemSection .secTitle{
+    margin: 0 0 55px;
+}
+.collectionSection2{
+    position: relative;
+    padding: 0 63px 95px;
+}
+.featuresSection2{
+    position: relative;
+    padding: 0 0 125px;
+}
+.trendingProductSection2{
+    background: #fdfaf7;
+    padding: 100px 0 65px;
+}
+.trendingProductSection2 .secTitle{
+    margin: 0 0 55px;
+}
+.mt38{
+    margin-top: 38px;
+}
+.testimonialSection2{
+    padding: 97px 0 59px;
+}
+.testimonialSection2 .secTitle{
+    line-height: 1;
+    margin: 0 0 65px;
+}
+.testimonialSection2 .secSubTitle{
+    margin: 13px 0 3px;
+}
+.testimonialSection2 .secDesc{
+    padding: 0 0 0 18px;
+}
+.brandSection2{
+    padding: 0 0 99px;
+}
+.brandSection2 .secTitle{
+    margin: 0 0 47px;
+}
+.blogSection2{
+    position: relative;
+    padding: 0 163px 111px;
+}
+.blogSection2 .secSubTitle{
+    margin: 0 0 4px;
+}
+.blogSection2 .secTitle{
+    margin: 0 0 59px;
+}
+.contact{
+    padding: 99px 0 103px;
+}
+.contactPageMap{
+    padding: 0 0 124px;
+}
+.featuSec2_conPage{
+    padding: 0 0 122px;
+}
+.abOurStor{
+    padding: 95px 0 76px;
+}
+.testSec2_abPage{
+    padding: 69px 0 104px;
+}
+.testimonialSection2.testSec2_abPage .secDesc {
+    margin: -1px 0 0;
+}
+.featuSec2_abPage{
+    padding: 0 0 84px;
+}
+.brandSec2_abPage{
+    padding: 0 0 136px;
+}
+.generalFaq{
+    padding: 65px 0 85px;
+}
+.generalFaq .faq_accordion{
+    margin: 0 100px 0 0;
+}
+
+.featuresSection3{
+    padding: 0 0 104px;
+}
+.testimonialGrdiSection{
+    padding: 100px 0 90px;
+}
+.testimonialGrdiSection .singleTestimonial{
+    margin: 0 0 30px;
+}
+.teamSection{
+    padding: 103px 0 60px;
+}
+
+.bestSellerSection{
+    padding: 78px 0 47px;
+}
+.bestSellerSection .container{
+    max-width: 1220px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.bestSellerSection .secTitle{
+    margin: 0 0 25px;
+}
+
+
+
+
+
+
+@media (max-width: 767px){
+
+    /* <-----> Contact page <-----> */
+
+    /* contact contactFormSide */
+    .contact .contactFormSide {
+        margin: 16px 0 0;
+    }
+}
+
+
+@media (max-width: 991px){
+
+    /* <-----> 404 page <-----> */
+
+    /* featuSec2_conPage */
+    .featuSec2_conPage{
+        padding: 0 0 92px;
+    }
+
+    /* <-----> About page <-----> */
+    /* Section Title */
+    .testimonialSection2 .secTitle {
+        margin: 0 0 15px;
+    }
+    .testimonialSection2 .secDesc {
+        padding: 0;
+        margin: 0 0 58px !important;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    /* <-----> FAQ page <-----> */
+
+    /* faq_accordion */
+    .generalFaq .faq_accordion{
+        margin: 0;
+    }
+}

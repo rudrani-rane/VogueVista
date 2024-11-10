@@ -1,0 +1,353 @@
+/*
+Theme Name: Souq
+Theme URI: 
+Author: JufailiTech
+Author URI: 
+Description: Souq - Ecommerce Responsive HTML5 Template
+Version: 1.0
+License:
+License URI:
+*/
+
+/*==================================
+    [Table of contents]
+===================================
+    01. Theme Fonts
+    02. Basic Typography
+    03. Links & Buttons
+    04. Section Titles
+    05. Section Notes
+    06. Sub Headings
+    07. Column Padding Margin Custom Define
+    08. Share Details On Social
+    09. Preloader
+*/
+
+/*------------------------------------------------------
+/  01. Theme Fonts
+/------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap');
+/*------------------------------------------------------
+/  02. Basic Typography
+/------------------------------------------------------*/
+body, html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    color: #62636b;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+p{
+    margin: 0 0 15px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #1c2035;
+    margin: 0 0 15px;
+}
+.playfair{
+    font-family: 'Playfair Display', serif;
+}
+a{
+    color: #f9ac73;
+    text-decoration: none;
+    transition: all ease 350ms;
+    -moz-transition: all ease 350ms;
+    -webkit-transition: all ease 350ms;
+}
+a:hover, a:focus{
+    color: #1c2035;
+    text-decoration: none;
+    outline: 0;
+}
+input:focus, select:focus, textarea:focus, button:focus{
+    outline: 0;
+}
+
+/*------------------------------------------------------
+/  03. Section Presets
+/------------------------------------------------------*/
+.secTitle{
+    font-size: 45px;
+    line-height: 62px;
+    font-weight: 700;
+    color: #0a0909;
+    margin: 0;
+}
+.secSubTitle{
+    font-size: 14px;
+    line-height: 1;
+    color: #f9ac73;
+    font-weight: 500;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+}
+.secDesc{
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(40, 40, 40, .9);
+    margin: 0;
+}
+.overFlowHidden{
+    overflow: hidden;
+}
+.noPaddingLeft{
+    padding-left: 0;
+}
+.noPaddingRight{
+    padding-right: 0;
+}
+.noPadding{
+    padding: 0;
+}
+
+
+/*------------------------------------------------------
+/  04. Links & Buttons
+/------------------------------------------------------*/
+.moreBTN{
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    background: transparent;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1;
+    color: #FFF;
+    font-weight: 500;
+    padding: 29px 5px 15px;
+    position: relative;
+    overflow: hidden;
+}
+.moreBTN:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: #464545;
+    border-radius: 50%;
+}
+.moreBTN:hover,
+.souqBTN:hover{
+    color: #FFF;
+}
+.moreBTN i{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 7px;
+    z-index: 3;
+    position: relative;
+}
+.moreBTN span.mbText,
+.souqBTN span.mbText{
+    display: block;
+    z-index: 3;
+    position: relative;
+}
+.moreBTN span.mbShape ,
+.souqBTN span.mbShape {
+    background: #f9ac73 none repeat scroll 0 0;
+    border-radius: 50%;
+    display: block;
+    height: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transition: width 0.6s ease 0s, height 0.6s ease 0s;
+    -moz-transition: width 0.6s ease 0s, height 0.6s ease 0s;
+    -webkit-transition: width 0.6s ease 0s, height 0.6s ease 0s;
+    -ms-transition: width 0.6s ease 0s, height 0.6s ease 0s;
+    -o-transition: width 0.6s ease 0s, height 0.6s ease 0s;
+    width: 0;
+    z-index: 2;
+}
+.moreBTN:hover span.mbShape,
+.souqBTN:hover span.mbShape {
+    height: 562.5px;
+    width: 562.5px;
+}
+.souqBTN{
+    font-weight: 500;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 58px;
+    background: transparent;
+    height: 58px;
+    min-width: 170px;
+    padding: 0 25px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border: none;
+}
+.souqBTN:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: #0a0909;
+}
+.soqLink{
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 500;
+    color: #FFF;
+    position: relative;
+    padding: 0 0 4px;
+}
+.soqLink:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #fdecdf;
+    transition: all ease 350ms;
+    -moz-transition: all ease 350ms;
+    -webkit-transition: all ease 350ms;
+}
+.soqLink:hover{
+    color: #f9ac73;
+}
+.soqLink:hover:after{
+    background: #f9ac73;
+}
+.souqBTN02{
+    color: #0a0909;
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    border: 1px solid #f9ac73;
+    background: transparent;
+}
+.souqBTN02R{
+    border-color: #0a0909;
+}
+.souqBTN02:hover, .souqBTN02R:hover{
+    color: #f9ac73;
+}
+.souqBTN02 span{
+    display: block;
+    position: relative;
+    z-index: 2;
+    height: 55px;
+    min-width: 186px;
+    line-height: 55px;
+}
+.souqBTN02::before, .souqBTN02::after {
+    content: "";
+    width: 0;
+    height: 1px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #000;
+}
+.souqBTN02R.souqBTN02::before, .souqBTN02R.souqBTN02::after{
+    background: #f9ac73;
+}
+.souqBTN02::before {
+    right: 0;
+    top: -1px;
+    transition-delay: 0.2s;
+}
+.souqBTN02::after {
+    left: 0;
+    bottom: -1px;
+    transition-delay: 0.6s;
+}
+.souqBTN02 span::before, .souqBTN02 span::after {
+    content: "";
+    width: 1px;
+    height: 0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #000;
+}
+.souqBTN02R.souqBTN02 span::before, .souqBTN02R.souqBTN02 span::after{
+    background: #f9ac73;
+}
+.souqBTN02 span::before {
+    transition-delay: 0s;
+    left: -1px;
+    top: -1px;
+}
+.souqBTN02 span::after {
+    transition-delay: 0.4s;
+    right: -1px;
+    bottom: -1px;
+}
+.souqBTN02:hover::before, .souqBTN02:hover::after {
+    width: 100%;
+}
+.souqBTN02:hover::before {
+    transition-delay: 0.4s;
+}
+.souqBTN02:hover::after {
+    transition-delay: 0s;
+}
+.souqBTN02:hover span::before, .souqBTN02:hover span::after {
+    height: calc(100% + 2px);
+}
+.souqBTN02:hover span::before {
+    transition-delay: 0.6s;
+}
+.souqBTN02:hover span::after {
+    transition-delay: 0.2s;
+}
+.souqLink{
+    font-size: 15px;
+    line-height: 34px;
+    color: #1c2035;
+    font-weight: 500;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    padding: 0 0 1px;
+}
+.souqLink:after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #1c2035;
+    transition: all ease 350ms;
+    -moz-transition: all ease 350ms;
+    -webkit-transition: all ease 350ms;
+}
+.souqLink:hover{
+    color: #f9ac73;
+}
+.souqLink:hover:after{
+    background: #f9ac73;
+}
+
+/*------------------------------------------------------
+/  04. Helper Classes
+/------------------------------------------------------*/
+.text-right{
+    text-align: right;
+}
