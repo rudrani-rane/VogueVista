@@ -1,2 +1,2 @@
-Full functional E-Commerce Web Page 
+Fully  functional E-Commerce Web Page 
 
