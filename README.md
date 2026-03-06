@@ -1,8 +1,7 @@
-# VogueVista 👗✨
+# VogueVista 
 
 Welcome to **VogueVista**, a fully functional e-commerce web page designed to offer a seamless and stylish online shopping experience. This project demonstrates a clean front-end implementation for a fashion-focused store.
 
-[![GitHub repo stars](https://img.shields.io/github/stars/rudrani-rane/VogueVista?style=social)](https://github.com/rudrani-rane/VogueVista/stargazers)
 
 ## 📖 About The Project
 
